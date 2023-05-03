@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 5px;
+
+}
+nav a:hover{
+    color: goldenrod;
+    border: 1px solid white;
+    transition: 1s;
+}
